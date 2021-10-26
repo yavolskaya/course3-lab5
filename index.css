@@ -1,0 +1,118 @@
+body {
+  font-size: 16px;
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+
+.block {
+
+  background: #e2e2e2;
+  border-width: 4px;
+}
+.block:target {
+  background: #ccc;
+}
+
+.block_1 {
+  margin: 0 0 0 10px;
+  width: 620px;
+  max-height: 1020px;
+  border-style: dotted;
+  border-color: hsl(0, 100%, 50%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.block_2 {
+  margin: 0 0 0 23px;
+  width: 560px;
+  height: 560px;
+  border-style: dashed;
+  border-color: hsl(72deg, 100%, 50%);
+  font-family: 'EB Garamond', serif;
+  font-size: 17px;
+}
+
+.block_1,
+.block_2 {
+  float: left;
+  padding: 0 12px;
+}
+
+.block_3 {
+  width: 500px;
+  height: 160px;
+  border-style: double;
+  border-color: hsl(144deg, 100%, 50%);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 8px;
+}
+
+.block_4 {
+  max-width: 400px;
+  height: 800px;
+  border-style: solid;
+  border-color: hsl(216deg, 100%, 50%);
+  font-family: 'Philosopher', sans-serif;
+  font-size: 17.5px;
+}
+
+.block_3,
+.block_4 {
+  float: right;
+  margin: 5px 32px 30px 0;
+  padding: 0 20px;
+}
+
+.block_5 {
+  width: 900px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border-style: dotted dashed double solid;
+  border-radius: 40px;
+  border-color: hsl(288deg, 100%, 50%);
+  font-family: 'Bellota', cursive;
+  font-size: 13.5px;
+}
+
+.h {
+  margin: 0.25em 0;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.p {
+  margin: 0.5em 0;
+  font-size: 1em;
+}
+
+.u {
+  text-decoration: underline;
+}
+
+.b {
+  font-weight: bold;
+}
+
+.i {
+  font-style: italic;
+}
+
+.table {
+  margin: 40px 0 40px 20%;
+  border-collapse: collapse;
+}
+
+.table > caption {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > td {
+  width: 180px;
+  height: 120px;
+  padding: 10px;
+  text-align: center;
+  border: 5px solid #777;
+}
